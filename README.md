@@ -1,9 +1,9 @@
-# LeanCircuit
+# LeanHardware
 
-An anonymous source package containing 329 clarified benchmarks, the two-stage LeanCircuit method, and a complete RISC-V CPU case study.
+An anonymous source package containing 329 clarified benchmarks, the two-stage LeanHardware method, and a complete RISC-V CPU case study.
 
 ```text
-LeanCircuit/
+LeanHardware/
 ├── benchmarks/                 VerilogEval / RTLLM / CVDP / ChipBench
 ├── method/
 │   ├── stage1/                 LeanSpec: formalization, diagnosis, clarification / revision

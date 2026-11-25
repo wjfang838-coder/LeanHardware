@@ -1,4 +1,4 @@
-# LeanCircuit method
+# LeanHardware method
 
 Method source code is organized here into exactly two stage directories. Benchmarks and the CPU case study are separate directories at the repository root.
 

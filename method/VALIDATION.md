@@ -14,7 +14,7 @@ Migration did not rerun complete CPU Lean proof replay, long PDR jobs, all bench
 
 ## Existing compatibility issues addressed during packaging
 
-1. Renamed the root Lake project to `leancircuit` and registered the required SpecIR/fixed-target libraries.
+1. Renamed the root Lake project to `LeanHardware` and registered the required SpecIR/fixed-target libraries.
 2. The newer CPU native-memory importer had replaced the old MemBlock roundtrip API while old callers remained. Restored the archived implementation unchanged as `v2lean/memblock_compat.py` and redirected four imports. CPU `native_memory.py` was unchanged; the two semantics were not merged.
 3. Two old Lean regressions expected arbitrary initialization from the clocked adapter, but the existing `clockedInitial` explicitly uses a fixed-zero profile. Updated expectations to zero initialization and documented that limitation, without changing framework, relation, or proof semantics.
 4. `symbols_test` retains its original path convention and runs from `method/`, not the repository root. The root-level schema test works normally.

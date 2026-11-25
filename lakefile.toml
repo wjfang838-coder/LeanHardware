@@ -1,4 +1,4 @@
-name = "leancircuit"
+name = "LeanHardware"
 defaultTargets = ["LeanRTL", "LeanRTL.Lib", "LeanRTL.Example", "LeanSpec", "SpecIR", "FrozenRefinement", "FrozenSpecBridge"]
 
 # Compatibility source paths preserve existing Python/Lean imports and CPU source bindings.

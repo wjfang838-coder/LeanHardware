@@ -1120,7 +1120,7 @@
     "lakefile.toml": {
       "source": "lakefile.toml",
       "sha256": "0dbfba31365c7a025d461a1defc8691d4e4a365e3b11bb37addc2a607cac91bb",
-      "package_sha256": "98c6b11c51f79f0fe7a39da950bedc84571ca0f066ceacbf945140d69f80342f"
+      "package_sha256": "cf78eaf672cc9670dc14f4d11824e332c0e39d527343922875171eeadbb0b3c7"
     },
     "method/stage2/v2lean/__init__.py": {
       "source": "v2lean/__init__.py",
@@ -10702,13 +10702,13 @@
     "method/refinement/lean/RefinementTests.lean": "Align two stale test expectations with existing explicitly fixed-zero clockedInitial semantics; no implementation semantics changed."
   },
   "added_files": {
-    "env.sh": "469398cb82913e66c2a6975aee35ebc58e53cbc4cfb4bf2ee20e4bf79d3d0442",
+    "env.sh": "26f8503acd849b83632c7968ec65e66b332239dc4affdb94973eb44b51ab8b75",
     ".gitignore": "17759482bf8794fabc643b601f80c41aa6f5845eaca04f5a2bc6b6fa6ac18a1d",
     "requirements.txt": "3625e271a739e36b1cfd0cbaeb4012d8b2443831b12df1bd1d7a47d16fb62cf6",
-    "README.md": "ddc16839e4bb19294f6a1ea245d66951842f392e958fe27346fabb4bc6ca4a3a",
+    "README.md": "6db2c03112a6be06c41781efc63e85f4251263d8d3ef91c721014491acf3e2a7",
     "benchmarks/README.md": "34954c3f8bf3e3873d71e7e99c277ff92de99eeabc1174db2f61f64d7606b513",
     "method/check_package.py": "d7bdce5c4a5ff42c8d91bb00de8890495c981462ff1c67597b76e191de680801",
-    "method/README.md": "fe805bc8809c3743c2e54c3089d351cad89c5da641ca12a26c696d13c04bcbf3",
+    "method/README.md": "e208f7e66732c572dc0da28b18db582ce65b204255b9edc4cf8749b3e5c50309",
     "method/stage2/README.md": "50eae373afb8a6ab03d7752c0d32fe5989d79741ba12ca595bf957c0ea5a87eb",
     "method/stage2/v2lean/README.md": "96fcf4ec2b929b6e28e6ef62ef41338948294ec97c3e70e0a15b82e27ea24c6b",
     "method/stage2/refinement/README.md": "2737627a3d0acb9d3e45cc64290bf8790b3ffa16d027d2a91c9b7b2d11258fb6",
@@ -10724,7 +10724,7 @@
     "method/stage2/example/mux_e2e/README.md": "c432efd7ae1a577b9f65161f2ad043b710c5b2a411db3b7b07a17d6fd4994863",
     "method/stage2/leanrtl/e2e_mux.py": "c4d4d9465ab57383cfd576ce05bf5a8b7e0933d936181642692271227759045f",
     "method/stage2/refinement/test_relational_handoff.py": "2a30fad38471d27c99e13170c329eee4ac1db27351195184e693bcee411a4330",
-    "method/VALIDATION.md": "4f49bb883fbfd15692ce5b90a28e9b78746b64636112d518f6571c417fd1048c"
+    "method/VALIDATION.md": "7cf8abea076e6cd8ec74c94133b4cffd42fe28911817a68073983893ef338ec4"
   },
   "validation": "method/VALIDATION.md",
   "source_preserved": true,
