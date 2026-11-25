@@ -36,7 +36,7 @@
 .leanhardware-animation-frame{display:block;width:100%;height:clamp(560px,76vw,850px);border:1px solid var(--line);border-radius:13px;background:var(--paper);}
 @media(max-width:700px){.interactive-animation{padding:10px;margin:30px 0 38px}.interactive-animation-heading{padding:4px 5px}.interactive-animation-heading p{font-size:13px}.leanhardware-animation-frame{height:620px;}}
 </style></head><body>
-<header><div class="nav"><a class="logo" href="#top">Lean<span>HW</span></a><nav><a href="#overview">Overview</a><a href="#method">Method</a><a href="#case-study">RISC-V Case Study</a><a href="#codebase">Codebase</a></nav></div></header>
+<header><div class="nav"><a class="logo" href="#top">Lean<span>Hardware</span></a><nav><a href="#overview">Overview</a><a href="#method">Method</a><a href="#case-study">RISC-V Case Study</a><a href="#codebase">Codebase</a></nav></div></header>
 <main id="top"><section class="hero"><div class="wrap"><div class="eyebrow">Formal Methods × Agentic Hardware Development</div><h1>LeanHardware</h1><p>From ambiguous natural-language requirements to executable specifications, generated RTL, and machine-checked refinement proofs.</p><div class="actions"><a class="btn" href="#method">Explore the workflow</a><a class="btn ghost" href="#case-study">Read the RISC-V case study</a><a class="btn ghost" href="#codebase">Codebase</a></div><div class="note">Research project · Anonymous review version</div></div></section>
 <section class="section" id="overview"><div class="wrap"><div class="kicker">01 / Overview</div><h2>Making AI-generated hardware trustworthy</h2><p class="lead">Language models can generate RTL from natural-language specifications. Reliable hardware development also requires an explicit interpretation of the intended behavior and evidence that the implementation satisfies it.</p><div class="cards"><article class="card"><div class="idx">CHALLENGE 01</div><h3>Ambiguous requirements</h3><p>Natural-language descriptions may permit several distinct behaviors. A plausible RTL implementation can still disagree with what the designer intended.</p></article><article class="card"><div class="idx">CHALLENGE 02</div><h3>Functional correctness</h3><p>Passing a finite set of simulations does not establish correctness for all relevant states or execution lengths.</p></article><article class="card"><div class="idx">OUR APPROACH</div><h3>Executable intent + proof</h3><p>LeanHardware clarifies requirements using discriminating traces, then uses Lean to prove that generated RTL refines the decided executable model.</p></article></div>
 <div class="kicker">Motivation</div><h2>Two questions across hardware development</h2><p><strong>What behavior should the design implement?</strong> LeanHardware formalizes candidate interpretations and asks the designer targeted questions when the interpretations disagree.</p><p><strong>Does the generated implementation satisfy that behavior?</strong> LeanHardware translates RTL into a Lean model and establishes a refinement relation through formal proof.</p>
@@ -121,7 +121,7 @@ body{background:radial-gradient(ellipse 85% 75% at 52% 7%,#edf4ff 0%,#f6f8fc 63%
 &lt;body&gt;
 &lt;div class=&quot;shell&quot;&gt;
   &lt;div class=&quot;mast&quot;&gt;
-    &lt;div class=&quot;brand&quot;&gt;Lean&lt;span&gt;HW&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;brand&quot;&gt;Lean&lt;span&gt;Hardware&lt;/span&gt;&lt;/div&gt;
     &lt;div class=&quot;meta&quot;&gt;&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&quot;viewport&quot; id=&quot;viewport&quot;&gt;

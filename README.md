@@ -1,5 +1,7 @@
 # LeanHardware
 
+[Project website](https://anonymous.4open.science/w/LeanHardware/)
+
 An anonymous source package containing 329 clarified benchmarks, the two-stage LeanHardware method, and a complete RISC-V CPU case study.
 
 ```text
